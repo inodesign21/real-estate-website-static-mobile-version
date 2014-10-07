@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="css/normalize.css" rel="stylesheet">
+
+        <!-- Bootstrap CSS Theme -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/flatly/bootstrap.min.css">
+
+        <!-- FontAwesome -->
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- Bootstrap Multiselect -->
+        <link href="css/bootstrap-multiselect.css" rel="stylesheet">
+
+        <!-- Bootstrap slider CSS  -->
+        <link rel="stylesheet" href="css/bootstrap-slider.min.css">
+
+        <!-- Snapjs CSS -->
+        <link rel="stylesheet" href="css/snap.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/main.css">
+
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+<!-- Drawers -->
+<div class="snap-drawers">
+    <div class="padded snap-drawer snap-drawer-left">
+        <div>
+            <h3>Items</h3>
+            <ul>
+                <li>Item #1</li>
+                <li>Item #2</li>
+                <li>Item #3</li>
+            </ul>
+        </div>  
+</div>
+
+
+
+<!-- Content -->
+<div id="content" class="container-fluid snap-content">
+
+    <div class="padded">
+
+    <div class="clearfix topo-background">
+
+      <a href="#" class="btn btn-success" id="open-left"><i class="fa fa-bars"></i> Menu</a>
+
+      <div class="contato-topo" style="float:right;">
+      <i class="fa fa-phone"></i> <a href="tel:+554734226900">47 3422-6900</a>  // <img class="whatsicon" src="img/whatsapp.svg" onerror="this.onerror=null; this.src='img/whatsapp.png'" alt="Whatsapp Icon"> <a href="tel:+554799494216">47 9949-4216</a>
+    </div>
+
+        <img class="logo-imoville img-responsive" src="img/logo_imoville.png" alt="Logo Imoville">
+      
+      
+    </div>
+
+    
+
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Busca</a> 
+          <i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse">
+          <div class="panel-body form-horizontal">
+              <input type="text" class="form-control" id="id_imovel" placeholder="Digite aqui a busca por um imóvel ou ID de referência">
+            <br>
+            <select id="pretensao" size="2">
+                <option value="lancamento">Lançamento</option>
+                <option value="venda">Venda</option>
+                <option value="aluguel">Aluguel</option>
+            </select>
+            <select id="tipo" size="2">
+                <option value="casa">Casa</option>
+                <option value="venda">Venda</option>
+                <option value="aluguel">Aluguel</option>
+            </select>
+            <select id="valor" size="2">
+                <option value="10000">Até 10 mil</option>
+                <option value="venda">Até 100 mil</option>
+                <option value="aluguel">Aluguel</option>
+            </select>
+            <select id="bairro" multiple="multiple">
+                <option value="centro">Centro</option>
+                <option value="venda">Venda</option>
+                <option value="aluguel">Aluguel</option>
+            </select>
+            <a href="#" class="btn btn-primary item-panel"><i class="fa fa-search"></i> Procurar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Hello, world!</h1>
+        
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2014</p>
+      </footer>
+
+    </div> <!-- /container -->       
+    </div> <!-- /padded --> 
+</div> <!-- /content --> 
+
+
+
+        <!-- jQuery JS -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+
+        <!-- Bootstrap JS -->
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <!-- Bootstrap Multiselect JS -->
+        <script src="js/vendor/bootstrap-multiselect.js"></script>
+
+        <!-- Bootstrap Slider JS -->
+        <script src="js/vendor/bootstrap-slider.min.js"></script>
+
+        <!-- Snapjs JS -->
+        <script src="js/vendor/snap.min.js"></script>
+
+        <!-- Snapjs JS Custom -->
+        <script src="js/snap.js"></script>
+
+        <!-- Custom JS -->
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <!-- Accordion Toggle Icon -->
+        <script type="text/javascript">
+          function toggleChevron(e) {
+              $(e.target)
+                  .prev('.panel-heading')
+                  .find("i.indicator")
+                  .toggleClass('glyphicon-chevron-down glyphicon-chevron-up');
+          }
+          $('#accordion').on('hidden.bs.collapse', toggleChevron);
+          $('#accordion').on('shown.bs.collapse', toggleChevron);
+        </script>
+
+        <!-- Select Pretensão -->
+        <script type="text/javascript">
+        $(document).ready(function() {
+            $('#pretensao').multiselect({
+                nonSelectedText: 'Pretensão'
+            });
+        });
+        </script>
+
+        <!-- Select Tipo -->
+        <script type="text/javascript">
+        $(document).ready(function() {
+            $('#tipo').multiselect({
+                nonSelectedText: 'Tipo'
+            });
+        });
+        </script>
+
+        <!-- Valor -->
+        <script type="text/javascript">
+        $(document).ready(function() {
+            $('#valor').multiselect({
+                nonSelectedText: 'Valor'
+            });
+        });
+        </script>
+
+        <!-- Ajustes do Multiseleção do Bairro -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#bairro').multiselect({
+                numberDisplayed: 2,
+                maxHeight: 150,
+                nonSelectedText: 'Bairro',
+                enableFiltering: true,
+                filterBehavior: 'both',
+                enableCaseInsensitiveFiltering: false,
+                filterPlaceholder: 'Procure',
+                includeSelectAllOption: true,
+                selectAllText: 'Todos'
+            });
+        });
+    </script>
+
+    </body>
+</html>

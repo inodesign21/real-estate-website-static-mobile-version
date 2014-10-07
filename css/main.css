@@ -1,0 +1,107 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* ==========================================================================
+font import
+========================================================================== */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+/* ==========================================================================
+   Basics
+   ========================================================================== */
+
+
+html, body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+p, div {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+
+/* ==========================================================================
+   Conteúdo
+   ========================================================================== */
+
+
+#content{
+    background: #011f5e;
+}
+
+/* ==========================================================================
+   Padded
+   ========================================================================== */
+
+
+.snap-drawer-left {
+    background:
+linear-gradient(135deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+linear-gradient(225deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+background-color:#708090;
+background-size: 64px 128px
+}
+
+
+/* ==========================================================================
+   Topo - Header
+   ========================================================================== */
+
+.topo-background {
+	margin-top: 10px;
+}
+
+.whatsicon {
+	height: 13px;
+	margin-bottom: 2px;
+}
+
+.whatsicon-color {
+	color:green;
+}
+
+.contato-topo {
+	font-size: 10px;
+	margin: 10px 0 10px 0;
+}
+
+.logo-imoville {
+	margin: 20px auto 20px;
+}
+
+
+/* ==========================================================================
+   Busca - Filtro - Search
+   ========================================================================== */
+
+
+.panel-heading {
+    cursor: pointer;
+}
+
+
+.btn-group>.btn {
+	margin:5px;
+}
+
+/* ==========================================================================
+  Jumbotron
+   ========================================================================== */
+
+.jumbotron h1, .jumbotron p{
+   	color:black;
+   }
