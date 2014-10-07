@@ -100,7 +100,7 @@ Imoveis
 .container-pad {
     padding: 30px 15px;
 }
-.container-pad h1 {
+.container-pad h4 {
     color:#011f5e;
 }
 .container-pad p {
@@ -169,17 +169,4 @@ Imoveis
     #property-listings .property-listing img {
         max-width: 180px;
     }
-}
-
-
-/* ==========================================================================
-Jumbotron
-========================================================================== */
-
-.jumbotron {
-  background-color: white;
-} 
-
-.jumbotron h1, .jumbotron p{
-  color:black;
 }
