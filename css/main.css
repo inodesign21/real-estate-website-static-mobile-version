@@ -1,18 +1,18 @@
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+Author's custom styles
+========================================================================== */
+
 
 /* ==========================================================================
-font import
+Font import
 ========================================================================== */
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 
 /* ==========================================================================
-   Basics
-   ========================================================================== */
-
+Basics
+========================================================================== */
 
 html, body {
   font-family: 'Montserrat', sans-serif;
@@ -23,78 +23,80 @@ html, body {
   overflow: hidden;
   color: white;
   background:
-linear-gradient(135deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
-linear-gradient(225deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
-background-color:#708090;
-background-size: 64px 128px
+  linear-gradient(135deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+  linear-gradient(225deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+  background-color:#708090;
+  background-size: 64px 128px
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
 }
 p, div {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
 }
 
 
 /* ==========================================================================
-   Conteúdo
-   ========================================================================== */
-
+Conteúdo
+========================================================================== */
 
 #content{
-    background: #011f5e;
+  background: #011f5e;
 }
 
 
-
 /* ==========================================================================
-   Topo - Header
-   ========================================================================== */
+Topo - Header
+========================================================================== */
 
 .topo-background {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 
 .whatsicon {
-	height: 13px;
-	margin-bottom: 2px;
+  height: 13px;
+  margin-bottom: 2px;
 }
 
 .whatsicon-color {
-	color:green;
+  color:green;
 }
 
 .contato-topo {
-	font-size: 10px;
-	margin: 10px 0 10px 0;
+  font-size: 10px;
+  margin: 10px 0 10px 0;
 }
 
 .logo-imoville {
-	margin: 20px auto 20px;
+  margin: 20px auto 20px;
 }
 
 
 /* ==========================================================================
-   Busca - Filtro - Search
-   ========================================================================== */
-
+Busca - Filtro - Search
+========================================================================== */
 
 .panel-heading {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 
 .btn-group>.btn {
-	margin:5px;
+  margin:5px;
 }
 
+
 /* ==========================================================================
-  Jumbotron
-   ========================================================================== */
+Jumbotron
+========================================================================== */
+
+.jumbotron {
+  background-color: white;
+} 
 
 .jumbotron h1, .jumbotron p{
-   	color:black;
-   }
+  color:black;
+}
