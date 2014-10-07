@@ -428,7 +428,6 @@
 </div> <!-- /content --> 
 
 
-
         <!-- jQuery JS -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
@@ -446,7 +445,7 @@
         <script src="js/vendor/snap.min.js"></script>
 
         <!-- Snapjs JS Custom -->
-        <script src="js/snap.js"></script>
+        <script src="js/snap_custom.js"></script>
 
         <!-- Custom JS -->
         <script src="js/main.js"></script>
@@ -460,63 +459,6 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
-
-        <!-- Accordion Toggle Icon -->
-        <script type="text/javascript">
-          function toggleChevron(e) {
-              $(e.target)
-                  .prev('.panel-heading')
-                  .find("i.indicator")
-                  .toggleClass('glyphicon-chevron-down glyphicon-chevron-up');
-          }
-          $('#accordion').on('hidden.bs.collapse', toggleChevron);
-          $('#accordion').on('shown.bs.collapse', toggleChevron);
-        </script>
-
-        <!-- Select Pretensão -->
-        <script type="text/javascript">
-        $(document).ready(function() {
-            $('#pretensao').multiselect({
-                nonSelectedText: 'Pretensão'
-            });
-        });
-        </script>
-
-        <!-- Select Tipo -->
-        <script type="text/javascript">
-        $(document).ready(function() {
-            $('#tipo').multiselect({
-                nonSelectedText: 'Tipo'
-            });
-        });
-        </script>
-
-        <!-- Valor -->
-        <script type="text/javascript">
-        $(document).ready(function() {
-            $('#valor').multiselect({
-                nonSelectedText: 'Valor'
-            });
-        });
-        </script>
-
-        <!-- Ajustes do Multiseleção do Bairro -->
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('#bairro').multiselect({
-                numberDisplayed: 2,
-                maxHeight: 250,
-                nonSelectedText: 'Bairro',
-                enableFiltering: true,
-                filterBehavior: 'both',
-                enableCaseInsensitiveFiltering: false,
-                filterPlaceholder: 'Procure',
-                includeSelectAllOption: true,
-                selectAllText: 'Todos',
-                nSelectedText: 'bairros'
-            });
-        });
-    </script>
 
     </body>
 </html>
