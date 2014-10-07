@@ -113,6 +113,9 @@ Imoveis
   color:#506eaf;
 }
 
+
+
+
 /**** MODULE ****/
 .bgc-fff {
     background-color: #fff!important;
@@ -169,4 +172,3 @@ Imoveis
     #property-listings .property-listing img {
         max-width: 180px;
     }
-}
