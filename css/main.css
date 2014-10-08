@@ -111,9 +111,11 @@ Imoveis
 }
 .container-pad h4 {
     color:#011f5e;
+    text-align: center;
 }
 .container-pad p {
     color:#122347;
+    text-align: center;
 }
 .media-heading small {
     color:#00143D;
@@ -121,9 +123,6 @@ Imoveis
 .list-inline li {
   color:#506eaf;
 }
-
-
-
 
 /**** MODULE ****/
 .bgc-fff {
