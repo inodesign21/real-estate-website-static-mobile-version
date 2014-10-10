@@ -109,9 +109,10 @@ Imoveis
 .container-pad {
     padding: 10px 15px;
 }
-.container-pad h4 {
+.container-pad h3 {
     color:#011f5e;
     text-align: center;
+    font-weight: bold;
 }
 .container-pad p {
     color:#122347;
