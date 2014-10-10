@@ -180,3 +180,27 @@ Imoveis
     #property-listings .property-listing img {
         max-width: 180px;
     }
+  }
+
+
+/**** Share  Imoveis****/
+
+.shareimovel {
+  margin: 0 5px;
+  font-size: 2em;
+}
+
+.whatsicon-large {
+  height: 35px;
+  padding-bottom: 10px;
+}
+
+.fa-facebook-square {
+  color:#0000FF;
+}
+.fa-twitter-square {
+  color:CornflowerBlue;
+}
+.fa-google-plus-square {
+  color:Crimson;
+}
