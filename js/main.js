@@ -33,6 +33,56 @@
         });
 
 
+// cidade
+        $(document).ready(function() {
+            $('#cidade').multiselect({
+                nonSelectedText: 'Cidade'
+            });
+        });
+
+
+// quarto
+        $(document).ready(function() {
+            $('#quarto').multiselect({
+                nonSelectedText: 'Quarto'
+            });
+        });
+
+
+// suite
+        $(document).ready(function() {
+            $('#suite').multiselect({
+                nonSelectedText: 'Suite'
+            });
+        });
+
+
+// garagem
+        $(document).ready(function() {
+            $('#garagem').multiselect({
+                nonSelectedText: 'Garagem'
+            });
+        });
+
+
+// banheiro
+        $(document).ready(function() {
+            $('#banheiro').multiselect({
+                nonSelectedText: 'Banheiro'
+            });
+        });
+
+
+// m2
+$(document).ready(function() {
+    $('#m2').multiselect({
+        nonSelectedText: 'm²'
+    });
+});
+
+
+
+
 // Ajustes do Multiseleção do Bairro
         $(document).ready(function() {
             $('#bairro').multiselect({
