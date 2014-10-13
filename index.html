@@ -27,6 +27,9 @@
         <!-- Snapjs CSS -->
         <link rel="stylesheet" href="css/snap.css">
 
+        <!-- Gallery CSS  -->
+        <link rel="stylesheet" href="css/blueimp-gallery.min.css">
+
         <!-- Custom CSS -->
         <link rel="stylesheet" href="css/main.css">
 
@@ -394,7 +397,29 @@
 
 
                 </div><!-- End Col -->
+
+
             </div><!-- End row -->
+
+<div id="links">
+    <a href="img/pics/banana.jpg" title="Banana">
+    </a>
+    <a href="img/pics/apple.jpg" title="Apple">
+    </a>
+    <a href="img/pics/orange.jpg" title="Orange">
+    </a>
+</div>
+
+<!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
+<div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel blueimp-gallery-controls">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+
         </div><!-- End container -->
     </div>
 
@@ -421,6 +446,9 @@
 
         <!-- Bootstrap Multiselect JS -->
         <script src="js/vendor/bootstrap-multiselect.js"></script>
+
+        <!-- Gallery JS -->
+        <script src="js/vendor/blueimp-gallery.min.js"></script>
 
         <!-- Bootstrap Slider JS -->
         <script src="js/vendor/bootstrap-slider.min.js"></script>
