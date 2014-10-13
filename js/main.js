@@ -57,3 +57,4 @@ blueimp.Gallery(
         carousel: true
     }
 );
+
