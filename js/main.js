@@ -107,7 +107,7 @@ blueimp.Gallery(
         carousel: true,
         stretchImages: 'cover',
         startSlideshow: true,
-        slideshowInterval: 3000
+        slideshowInterval: 2500
     }
 );
 
