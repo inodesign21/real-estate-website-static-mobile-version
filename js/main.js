@@ -51,11 +51,82 @@
 
 // Ajustes do gallery
 blueimp.Gallery(
-    document.getElementById('links').getElementsByTagName('a'),
+    document.getElementById('imovel1').getElementsByTagName('a'),
     {
-        container: '#blueimp-gallery-carousel',
+        container: '#container-imovel1',
         carousel: true,
-        stretchImages: 'cover'
+        stretchImages: 'cover',
+        startSlideshow: true,
+        slideshowInterval: 3000
     }
 );
 
+blueimp.Gallery(
+    document.getElementById('imovel2').getElementsByTagName('a'),
+    {
+        container: '#container-imovel2',
+        carousel: true,
+        stretchImages: 'cover',
+        startSlideshow: false
+    }
+);
+
+blueimp.Gallery(
+    document.getElementById('imovel3').getElementsByTagName('a'),
+    {
+        container: '#container-imovel3',
+        carousel: true,
+        stretchImages: 'cover',
+        startSlideshow: false
+    }
+);
+
+blueimp.Gallery(
+    document.getElementById('imovel4').getElementsByTagName('a'),
+    {
+        container: '#container-imovel4',
+        carousel: true,
+        stretchImages: 'cover',
+        startSlideshow: false
+    }
+);
+
+blueimp.Gallery(
+    document.getElementById('imovel5').getElementsByTagName('a'),
+    {
+        container: '#container-imovel5',
+        carousel: true,
+        stretchImages: 'cover',
+        startSlideshow: false
+    }
+);
+
+blueimp.Gallery(
+    document.getElementById('imovel6').getElementsByTagName('a'),
+    {
+        container: '#container-imovel6',
+        carousel: true,
+        stretchImages: 'cover',
+        startSlideshow: false
+    }
+);
+
+blueimp.Gallery(
+    document.getElementById('imovel7').getElementsByTagName('a'),
+    {
+        container: '#container-imovel7',
+        carousel: true,
+        stretchImages: 'cover',
+        startSlideshow: false
+    }
+);
+
+blueimp.Gallery(
+    document.getElementById('imovel8').getElementsByTagName('a'),
+    {
+        container: '#container-imovel8',
+        carousel: true,
+        stretchImages: 'cover',
+        startSlideshow: false
+    }
+);
