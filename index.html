@@ -8,6 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Home</title>
         <meta name="description" content="Imoville Versão Mobile">
+        <meta name="keywords" content="Imoville" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link href="css/normalize.css" rel="stylesheet">
@@ -33,552 +34,512 @@
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
+    
     <body>
+
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-
-
-<!-- Drawers -->
-<div class="snap-drawers">
-    <div class="padded snap-drawer snap-drawer-left">
-        <div>
-            <ul style="list-style-type: none;">
-                <li><h1><span class="label label-info"><a href="index.html">HOME</a></span></h1></li>
-                <li><h1><span class="label label-blue"><a href="empresa.html">EMPRESA</a></span></h1></li>
-                <li><h1><span class="label label-blue"><a href="servicos.html">SERVIÇOS</a></span></h1></li>
-                <li><h1><span class="label label-blue"><a href="busca.html">BUSCA</a></span></h1></li>
-                <li><h1><span class="label label-blue"><a href="contato.html">CONTATO</a></span></h1></li>
-            </ul>
-        </div>  
-</div>
-</div>
-
-
-
-<!-- Content -->
-<div id="content" class="container-fluid snap-content">
-
-    <div class="padded">
-
-
-      <!-- Top -->
-
-    <div class="clearfix topo-background">
-
-      <a href="#" class="btn btn-success" id="open-left"><i class="fa fa-bars"></i> Menu</a>
-
-      <div class="contato-topo" style="float:right;">
-      <i class="fa fa-phone"></i> <a href="tel:+554734226900">47 3422-6900</a> &nbsp &nbsp <img class="whatsicon" src="img/whatsapp.svg" onerror="this.onerror=null; this.src='img/whatsapp.png'" alt="Whatsapp Icon"> <a href="tel:+554799494216">47 9949-4216</a> <br> <i class="fa fa-at"></i><a href="maito:contato@imoville.imb.br"> contato@imoville.imb.br</a>
-    </div>
-
-        <img class="logo-imoville img-responsive" src="img/logo_imoville.png" alt="Logo Imoville">
-      
-      
-    </div>
-
-    <!-- Busca Search -->
-
-    <div class="panel-group" id="accordion">
-      <div class="panel panel-default">
-        <div class="panel-heading accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-          <h4 class="panel-title">
-              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Busca</a> 
-          <i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
-          </h4>
+    <!-- Drawers -->
+    <div class="snap-drawers">
+        <div class="padded snap-drawer snap-drawer-left">
+            <div>
+                <ul style="list-style-type: none;">
+                    <li><h1><span class="label label-info"><a href="index.html">HOME</a></span></h1></li>
+                    <li><h1><span class="label label-blue"><a href="empresa.html">EMPRESA</a></span></h1></li>
+                    <li><h1><span class="label label-blue"><a href="servicos.html">SERVIÇOS</a></span></h1></li>
+                    <li><h1><span class="label label-blue"><a href="busca.html">BUSCA</a></span></h1></li>
+                    <li><h1><span class="label label-blue"><a href="contato.html">CONTATO</a></span></h1></li>
+                </ul>
+            </div>  
         </div>
-        <div id="collapseOne" class="panel-collapse collapse">
-          <div class="panel-body form-horizontal">
-              <input type="text" class="form-control" id="id_imovel" placeholder="Digite aqui a busca por um imóvel ou ID de referência">
-            <br>
-            <select id="pretensao" size="2">
-                <option value="lancamento">Lançamento</option>
-                <option value="venda">Venda</option>
-                <option value="aluguel">Aluguel</option>
-            </select>
-            <select id="tipo" size="2">
-                <option value="casa">Casa</option>
-                <option value="venda">Venda</option>
-                <option value="aluguel">Aluguel</option>
-            </select>
-            <select id="valor" size="2">
-                <option value="10000">Até 10 mil</option>
-                <option value="venda">Até 100 mil</option>
-                <option value="aluguel">Aluguel</option>
-            </select>
-            <select id="bairro" multiple="multiple">
-                <option value="centro">Centro</option>
-                <option value="venda">Venda</option>
-                <option value="aluguel">Aluguel</option>
-            </select>
-            <a href="#" class="btn btn-primary item-panel"><i class="fa fa-search"></i> Procurar</a>
-          </div>
-        </div>
-      </div>
-    </div>
+    </div> <!-- /draw -->
 
-    <!-- Imóveis -->
+    <!-- Content -->
+    <div id="content" class="container-fluid snap-content">
 
-    <div class="container-fluid" style="background-color:#e8e8e8">
-        <div class="container container-pad" id="property-listings">
+        <!-- Padded 
+        <div class="padded"> -->
+
+            <!-- Top -->
+            <div class="clearfix topo-background">
+
+                <a href="#" class="btn btn-success" id="open-left"><i class="fa fa-bars"></i> Menu</a>
+
+                <div class="contato-topo" style="float:right;">
+                  <i class="fa fa-phone"></i> <a href="tel:+554734226900">47 3422-6900</a> &nbsp &nbsp <img class="whatsicon" src="img/whatsapp.svg" onerror="this.onerror=null; this.src='img/whatsapp.png'" alt="Whatsapp Icon"> <a href="tel:+554799494216">47 9949-4216</a> <br> <i class="fa fa-at"></i><a href="maito:contato@imoville.imb.br"> contato@imoville.imb.br</a>
+                </div>
+                    
+                <img class="logo-imoville img-responsive" src="img/logo_imoville.png" alt="Logo Imoville">     
             
-            <div class="row">
-              <div class="col-md-12">
-                <h3>Lista de Imóveis</h3>
-                <p>Listando: <span class="label label-default">08</span></p>
-              </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-sm-6"> 
-
-                    <!-- Imovel Exemplo-->
-                    <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
-                        <div class="media no-drag">
-
-                            <!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
-                            <div id="container-imovel1" data-snap-ignore="true" class="blueimp-gallery blueimp-gallery-carousel">
-                                <div class="slides"></div>
-                                <h3 class="title"></h3>
-                                <a class="prev">‹</a>
-                                <a class="next">›</a>
-                                <a class="play-pause"></a>
-                                <ol class="indicator"></ol>
-                            </div>
-
-                            <div id="imovel1">
-                            <a href="img/pics/house.jpg" title="House">
-                            </a>
-                            <a href="http://images.prd.mris.com/image/V2/1/Yu59d899Ocpyr_RnF0-8qNJX1oYibjwp9TiLy-bZvU9vRJ2iC1zSQgFwW-fTCs6tVkKrj99s7FFm5Ygwl88xIA.jpg" title="House">
-                            </a>
-                            </div>
-
-
-                            <div class="clearfix visible-sm"></div>
-
-                            <div class="media-body fnt-smaller">
-                                <a href="#" target="_parent"></a>
-
-
-                                <h4 class="media-heading">
-                                  <a href="imovel.html" target="_parent">$1,975,000 <small class="pull-right">Centro, Joinville</small></a></h4>
-
-
-                                <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
-                                    <li>820m²</li>
-
-                                    <li style="list-style: none">|</li>
-
-                                    <li>Venda</li>
-
-                                    <li style="list-style: none">|</li>
-
-                                    <li>Casa</li>
-                                </ul>
-
-                                <p>Breve descrição do imóvel. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="imovel.html">Visualizar</a></p>
-
-                                <span class="fnt-large fnt-lighter fnt-arial">Envie: <img class="whatsicon whatsicon-large" src="img/whatsapp.svg" onerror="this.onerror=null; this.src='img/whatsapp.png'" alt="Whatsapp Icon"><i class="fa fa-facebook-square shareimovel"></i><i class="fa fa-twitter-square shareimovel"></i><i class="fa fa-envelope-o shareimovel"></i></span>
-                            </div>
-                        </div>
-                    </div><!-- End Listing-->
-
-                    <!-- Imovel Exemplo-->
-                    <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
-                        <div class="media no-drag">
-
-                            <!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
-                            <div id="container-imovel2" data-snap-ignore="true" class="blueimp-gallery blueimp-gallery-carousel blueimp-gallery-controls">
-                                <div class="slides"></div>
-                                <h3 class="title"></h3>
-                                <a class="prev">‹</a>
-                                <a class="next">›</a>
-                                <a class="play-pause"></a>
-                                <ol class="indicator"></ol>
-                            </div>
-
-                            <div id="imovel2">
-                            <a href="http://images.prd.mris.com/image/V2/1/Yu59d899Ocpyr_RnF0-8qNJX1oYibjwp9TiLy-bZvU9vRJ2iC1zSQgFwW-fTCs6tVkKrj99s7FFm5Ygwl88xIA.jpg" title="House">
-                            </a>
-                            <a href="img/pics/house.jpg" title="House">
-                            </a>
-                            </div>
-
-
-                            <div class="clearfix visible-sm"></div>
-
-                            <div class="media-body fnt-smaller">
-                                <a href="#" target="_parent"></a>
-
-
-                                <h4 class="media-heading">
-                                  <a href="imovel.html" target="_parent">$1,975,000 <small class="pull-right">Centro, Joinville</small></a></h4>
-
-
-                                <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
-                                    <li>820m²</li>
-
-                                    <li style="list-style: none">|</li>
-
-                                    <li>Venda</li>
-
-                                    <li style="list-style: none">|</li>
-
-                                    <li>Casa</li>
-                                </ul>
-
-                                <p>Breve descrição do imóvel. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="imovel.html">Visualizar</a></p>
-
-                                <span class="fnt-large fnt-lighter fnt-arial">Envie: <img class="whatsicon whatsicon-large" src="img/whatsapp.svg" onerror="this.onerror=null; this.src='img/whatsapp.png'" alt="Whatsapp Icon"><i class="fa fa-facebook-square shareimovel"></i><i class="fa fa-twitter-square shareimovel"></i><i class="fa fa-envelope-o shareimovel"></i></span>
-                            </div>
-                        </div>
-                    </div><!-- End Listing-->
-
-                   <!-- Imovel Exemplo-->
-                    <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
-                        <div class="media no-drag">
-
-                            <!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
-                            <div id="container-imovel3" data-snap-ignore="true" class="blueimp-gallery blueimp-gallery-carousel">
-                                <div class="slides"></div>
-                                <h3 class="title"></h3>
-                                <a class="prev">‹</a>
-                                <a class="next">›</a>
-                                <a class="play-pause"></a>
-                                <ol class="indicator"></ol>
-                            </div>
-
-                            <div id="imovel3">
-                                <a href="img/pics/house.jpg" title="House">
-                            </a>
-                            <a href="http://images.prd.mris.com/image/V2/1/Yu59d899Ocpyr_RnF0-8qNJX1oYibjwp9TiLy-bZvU9vRJ2iC1zSQgFwW-fTCs6tVkKrj99s7FFm5Ygwl88xIA.jpg" title="House">
-                            </a>
-                            </div>
-
-
-                            <div class="clearfix visible-sm"></div>
-
-                            <div class="media-body fnt-smaller">
-                                <a href="#" target="_parent"></a>
-
-
-                                <h4 class="media-heading">
-                                  <a href="imovel.html" target="_parent">$1,975,000 <small class="pull-right">Centro, Joinville</small></a></h4>
-
-
-                                <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
-                                    <li>820m²</li>
-
-                                    <li style="list-style: none">|</li>
-
-                                    <li>Venda</li>
-
-                                    <li style="list-style: none">|</li>
-
-                                    <li>Casa</li>
-                                </ul>
-
-                                <p>Breve descrição do imóvel. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="imovel.html">Visualizar</a></p>
-
-                                <span class="fnt-large fnt-lighter fnt-arial">Envie: <img class="whatsicon whatsicon-large" src="img/whatsapp.svg" onerror="this.onerror=null; this.src='img/whatsapp.png'" alt="Whatsapp Icon"><i class="fa fa-facebook-square shareimovel"></i><i class="fa fa-twitter-square shareimovel"></i><i class="fa fa-envelope-o shareimovel"></i></span>
-                            </div>
-                        </div>
-                    </div><!-- End Listing-->
-
-                 <!-- Imovel Exemplo-->
-                    <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
-                        <div class="media no-drag">
-
-                            <!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
-                            <div id="container-imovel4" data-snap-ignore="true" class="blueimp-gallery blueimp-gallery-carousel">
-                                <div class="slides"></div>
-                                <h3 class="title"></h3>
-                                <a class="prev">‹</a>
-                                <a class="next">›</a>
-                                <a class="play-pause"></a>
-                                <ol class="indicator"></ol>
-                            </div>
-
-                            <div id="imovel4">
-                            <a href="http://images.prd.mris.com/image/V2/1/Yu59d899Ocpyr_RnF0-8qNJX1oYibjwp9TiLy-bZvU9vRJ2iC1zSQgFwW-fTCs6tVkKrj99s7FFm5Ygwl88xIA.jpg" title="House">
-                            </a>
-                            <a href="img/pics/house.jpg" title="House">
-                            </a>
-                            </div>
-
-
-                            <div class="clearfix visible-sm"></div>
-
-                            <div class="media-body fnt-smaller">
-                                <a href="#" target="_parent"></a>
-
-
-                                <h4 class="media-heading">
-                                  <a href="imovel.html" target="_parent">$1,975,000 <small class="pull-right">Centro, Joinville</small></a></h4>
-
-
-                                <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
-                                    <li>820m²</li>
-
-                                    <li style="list-style: none">|</li>
-
-                                    <li>Venda</li>
-
-                                    <li style="list-style: none">|</li>
-
-                                    <li>Casa</li>
-                                </ul>
-
-                                <p>Breve descrição do imóvel. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="imovel.html">Visualizar</a></p>
-
-                                <span class="fnt-large fnt-lighter fnt-arial">Envie: <img class="whatsicon whatsicon-large" src="img/whatsapp.svg" onerror="this.onerror=null; this.src='img/whatsapp.png'" alt="Whatsapp Icon"><i class="fa fa-facebook-square shareimovel"></i><i class="fa fa-twitter-square shareimovel"></i><i class="fa fa-envelope-o shareimovel"></i></span>
-                            </div>
-                        </div>
-                    </div><!-- End Listing-->
-
+            </div><!-- fecha div Top -->
+
+            <!-- Busca Search -->
+            <div class="panel-group" id="accordion"><!-- accordion -->
+              <div class="panel panel-default">
+
+                <div class="panel-heading accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                  <h4 class="panel-title">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Busca</a> <i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+                  </h4>
                 </div>
 
+                <div id="collapseOne" class="panel-collapse collapse">
+                  <div class="panel-body form-horizontal">
+                    <input type="text" class="form-control" id="id_imovel" placeholder="Digite aqui a busca por um imóvel ou ID de referência">
+                    <br>
+                    <select id="pretensao" size="2">
+                        <option value="lancamento">Lançamento</option>
+                        <option value="venda">Venda</option>
+                        <option value="aluguel">Aluguel</option>
+                    </select>
+                    <select id="tipo" size="2">
+                        <option value="casa">Casa</option>
+                        <option value="venda">Venda</option>
+                        <option value="aluguel">Aluguel</option>
+                    </select>
+                    <select id="valor" size="2">
+                        <option value="10000">Até 10 mil</option>
+                        <option value="venda">Até 100 mil</option>
+                        <option value="aluguel">Aluguel</option>
+                    </select>
+                    <select id="bairro" multiple="multiple">
+                        <option value="centro">Centro</option>
+                        <option value="venda">Venda</option>
+                        <option value="aluguel">Aluguel</option>
+                    </select>
+                    <a href="#" class="btn btn-primary item-panel"><i class="fa fa-search"></i> Procurar</a>
+                  </div>
+                </div>
+
+              </div>
+            </div><!-- fecha div id accordion --><!-- fecha div Busca Search -->
 
-
-
-
-                <div class="col-sm-6">  
-
-                
-              <!-- Imovel Exemplo-->
-                    <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
-                        <div class="media no-drag">
-
-                            <!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
-                            <div id="container-imovel6" data-snap-ignore="true" class="blueimp-gallery blueimp-gallery-carousel">
-                                <div class="slides"></div>
-                                <h3 class="title"></h3>
-                                <a class="prev">‹</a>
-                                <a class="next">›</a>
-                                <a class="play-pause"></a>
-                                <ol class="indicator"></ol>
-                            </div>
-
-                            <div id="imovel6">
-                            <a href="http://images.prd.mris.com/image/V2/1/Yu59d899Ocpyr_RnF0-8qNJX1oYibjwp9TiLy-bZvU9vRJ2iC1zSQgFwW-fTCs6tVkKrj99s7FFm5Ygwl88xIA.jpg" title="House">
-                            </a>
-                            <a href="img/pics/house.jpg" title="House">
-                            </a>
-                            </div>
-
-
-                            <div class="clearfix visible-sm"></div>
-
-                            <div class="media-body fnt-smaller">
-                                <a href="#" target="_parent"></a>
-
-
-                                <h4 class="media-heading">
-                                  <a href="imovel.html" target="_parent">$1,975,000 <small class="pull-right">Centro, Joinville</small></a></h4>
-
-
-                                <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
-                                    <li>820m²</li>
-
-                                    <li style="list-style: none">|</li>
-
-                                    <li>Venda</li>
-
-                                    <li style="list-style: none">|</li>
-
-                                    <li>Casa</li>
-                                </ul>
-
-                                <p>Breve descrição do imóvel. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="imovel.html">Visualizar</a></p>
-
-                                <span class="fnt-large fnt-lighter fnt-arial">Envie: <img class="whatsicon whatsicon-large" src="img/whatsapp.svg" onerror="this.onerror=null; this.src='img/whatsapp.png'" alt="Whatsapp Icon"><i class="fa fa-facebook-square shareimovel"></i><i class="fa fa-twitter-square shareimovel"></i><i class="fa fa-envelope-o shareimovel"></i></span>
-                            </div>
-                        </div>
-                    </div><!-- End Listing-->
-
-                    <!-- Imovel Exemplo-->
-                    <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
-                        <div class="media no-drag">
-
-                            <!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
-                            <div id="container-imovel5" data-snap-ignore="true" class="blueimp-gallery blueimp-gallery-carousel">
-                                <div class="slides"></div>
-                                <h3 class="title"></h3>
-                                <a class="prev">‹</a>
-                                <a class="next">›</a>
-                                <a class="play-pause"></a>
-                                <ol class="indicator"></ol>
-                            </div>
-
-                            <div id="imovel5">
-                                <a href="img/pics/house.jpg" title="House">
-                            </a>
-                            <a href="http://images.prd.mris.com/image/V2/1/Yu59d899Ocpyr_RnF0-8qNJX1oYibjwp9TiLy-bZvU9vRJ2iC1zSQgFwW-fTCs6tVkKrj99s7FFm5Ygwl88xIA.jpg" title="House">
-                            </a>
-                            </div>
-
-
-                            <div class="clearfix visible-sm"></div>
-
-                            <div class="media-body fnt-smaller">
-                                <a href="#" target="_parent"></a>
-
-
-                                <h4 class="media-heading">
-                                  <a href="imovel.html" target="_parent">$1,975,000 <small class="pull-right">Centro, Joinville</small></a></h4>
-
-
-                                <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
-                                    <li>820m²</li>
-
-                                    <li style="list-style: none">|</li>
-
-                                    <li>Venda</li>
-
-                                    <li style="list-style: none">|</li>
-
-                                    <li>Casa</li>
-                                </ul>
-
-                                <p>Breve descrição do imóvel. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="imovel.html">Visualizar</a></p>
-
-                                <span class="fnt-large fnt-lighter fnt-arial">Envie: <img class="whatsicon whatsicon-large" src="img/whatsapp.svg" onerror="this.onerror=null; this.src='img/whatsapp.png'" alt="Whatsapp Icon"><i class="fa fa-facebook-square shareimovel"></i><i class="fa fa-twitter-square shareimovel"></i><i class="fa fa-envelope-o shareimovel"></i></span>
-                            </div>
-                        </div>
-                    </div><!-- End Listing-->
-
-
-              
-                    <!-- Imovel Exemplo-->
-                    <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
-                        <div class="media no-drag">
-
-                            <!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
-                            <div id="container-imovel8" data-snap-ignore="true" class="blueimp-gallery blueimp-gallery-carousel">
-                                <div class="slides"></div>
-                                <h3 class="title"></h3>
-                                <a class="prev">‹</a>
-                                <a class="next">›</a>
-                                <a class="play-pause"></a>
-                                <ol class="indicator"></ol>
-                            </div>
-
-                            <div id="imovel8">
-                            <a href="http://images.prd.mris.com/image/V2/1/Yu59d899Ocpyr_RnF0-8qNJX1oYibjwp9TiLy-bZvU9vRJ2iC1zSQgFwW-fTCs6tVkKrj99s7FFm5Ygwl88xIA.jpg" title="House">
-                            </a>
-                            <a href="img/pics/house.jpg" title="House">
-                            </a>
-                            </div>
-
-
-                            <div class="clearfix visible-sm"></div>
-
-                            <div class="media-body fnt-smaller">
-                                <a href="#" target="_parent"></a>
-
-
-                                <h4 class="media-heading">
-                                  <a href="imovel.html" target="_parent">$1,975,000 <small class="pull-right">Centro, Joinville</small></a></h4>
-
-
-                                <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
-                                    <li>820m²</li>
-
-                                    <li style="list-style: none">|</li>
-
-                                    <li>Venda</li>
-
-                                    <li style="list-style: none">|</li>
-
-                                    <li>Casa</li>
-                                </ul>
-
-                                <p>Breve descrição do imóvel. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="imovel.html">Visualizar</a></p>
-
-                                <span class="fnt-large fnt-lighter fnt-arial">Envie: <img class="whatsicon whatsicon-large" src="img/whatsapp.svg" onerror="this.onerror=null; this.src='img/whatsapp.png'" alt="Whatsapp Icon"><i class="fa fa-facebook-square shareimovel"></i><i class="fa fa-twitter-square shareimovel"></i><i class="fa fa-envelope-o shareimovel"></i></span>
-                            </div>
-                        </div>
-                    </div><!-- End Listing-->
-
-                    <!-- Imovel Exemplo-->
-                    <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
-                        <div class="media no-drag">
-
-                            <!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
-                            <div id="container-imovel7" data-snap-ignore="true" class="blueimp-gallery blueimp-gallery-carousel">
-                                <div class="slides"></div>
-                                <h3 class="title"></h3>
-                                <a class="prev">‹</a>
-                                <a class="next">›</a>
-                                <a class="play-pause"></a>
-                                <ol class="indicator"></ol>
-                            </div>
-
-                            <div id="imovel7">
-                                <a href="img/pics/house.jpg" title="House">
-                            </a>
-                            <a href="http://images.prd.mris.com/image/V2/1/Yu59d899Ocpyr_RnF0-8qNJX1oYibjwp9TiLy-bZvU9vRJ2iC1zSQgFwW-fTCs6tVkKrj99s7FFm5Ygwl88xIA.jpg" title="House">
-                            </a>
-                            </div>
-
-
-                            <div class="clearfix visible-sm"></div>
-
-                            <div class="media-body fnt-smaller">
-                                <a href="#" target="_parent"></a>
-
-
-                                <h4 class="media-heading">
-                                  <a href="imovel.html" target="_parent">$1,975,000 <small class="pull-right">Centro, Joinville</small></a></h4>
-
-
-                                <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
-                                    <li>820m²</li>
-
-                                    <li style="list-style: none">|</li>
-
-                                    <li>Venda</li>
-
-                                    <li style="list-style: none">|</li>
-
-                                    <li>Casa</li>
-                                </ul>
-
-                                <p>Breve descrição do imóvel. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="imovel.html">Visualizar</a></p>
-
-                                <span class="fnt-large fnt-lighter fnt-arial">Envie: <img class="whatsicon whatsicon-large" src="img/whatsapp.svg" onerror="this.onerror=null; this.src='img/whatsapp.png'" alt="Whatsapp Icon"><i class="fa fa-facebook-square shareimovel"></i><i class="fa fa-twitter-square shareimovel"></i><i class="fa fa-envelope-o shareimovel"></i></span>
-                            </div>
-                        </div>
-                    </div><!-- End Listing-->
-
-
-
-                </div><!-- End Col -->
-
-
-            </div><!-- End row -->
-
-
-
-
-        </div><!-- End container -->
-    </div>
-
-    <hr>
-
-    <div class="container">
-
-      <footer>
-        <p>&copy; Imoville Empreendimentos Imobiliários 2014</p>
-      </footer>
-
-
-
-    </div> <!-- /container --> 
           
-    </div> <!-- /padded --> 
-</div> <!-- /content --> 
+            <!-- Imóveis -->
+            <div class="container-fluid" style="background-color:#e8e8e8"><!-- div Imóveis -->
+                <div class="container container-pad" id="property-listings"><!-- container -->
+                    
+                    <div class="row">
+                      <div class="col-md-12">
+                        <h3>Lista de Imóveis</h3>
+                        <p>Listando: <span class="label label-default">08</span></p>
+                      </div>
+                    </div>
+                    
+                    <div class="row"><!-- row dos imoveis-->
+
+                        <div class="col-sm-6"> <!-- coluna esquerda -->
+
+                            <!-- Imovel Exemplo 1-->
+                            <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                                <div class="media no-drag" data-snap-ignore="true">
+
+                                    <!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
+                                    <div id="container-imovel1" data-snap-ignore="true" class="blueimp-gallery blueimp-gallery-carousel">
+                                        <div class="slides"></div>
+                                        <h3 class="title"></h3>
+                                        <a class="prev">‹</a>
+                                        <a class="next">›</a>
+                                        <a class="play-pause"></a>
+                                        <ol class="indicator"></ol>
+                                    </div>
+
+                                    <div id="imovel1">
+                                    <a href="img/pics/house.jpg" title="House">
+                                    </a>
+                                    <a href="http://images.prd.mris.com/image/V2/1/Yu59d899Ocpyr_RnF0-8qNJX1oYibjwp9TiLy-bZvU9vRJ2iC1zSQgFwW-fTCs6tVkKrj99s7FFm5Ygwl88xIA.jpg" title="House">
+                                    </a>
+                                    </div>
+
+                                    <div class="clearfix visible-sm"></div>
+
+                                    <div class="media-body fnt-smaller">
+                                        <a href="#" target="_parent"></a>
+
+                                        <h4 class="media-heading">
+                                          <a href="imovel.html" target="_parent">$1,975,000 <small class="pull-right">Centro, Joinville</small></a></h4>
+
+                                        <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
+                                            <li>820m²</li>
+
+                                            <li style="list-style: none">|</li>
+
+                                            <li>Venda</li>
+
+                                            <li style="list-style: none">|</li>
+
+                                            <li>Casa</li>
+                                        </ul>
+
+                                        <p>Breve descrição do imóvel. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="imovel.html">Visualizar</a></p>
+
+                                        <span class="fnt-large fnt-lighter fnt-arial">Envie: <img class="whatsicon whatsicon-large" src="img/whatsapp.svg" onerror="this.onerror=null; this.src='img/whatsapp.png'" alt="Whatsapp Icon"><i class="fa fa-facebook-square shareimovel"></i><i class="fa fa-twitter-square shareimovel"></i><i class="fa fa-envelope-o shareimovel"></i></span>
+                                    </div>
+                                </div>
+                            </div><!-- End imovel 1 -->
+
+                            <!-- Imovel Exemplo 2 -->
+                            <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                                <div class="media no-drag">
+
+                                    <!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
+                                    <div id="container-imovel2" data-snap-ignore="true" class="blueimp-gallery blueimp-gallery-carousel blueimp-gallery-controls">
+                                        <div class="slides"></div>
+                                        <h3 class="title"></h3>
+                                        <a class="prev">‹</a>
+                                        <a class="next">›</a>
+                                        <a class="play-pause"></a>
+                                        <ol class="indicator"></ol>
+                                    </div>
+
+                                    <div id="imovel2">
+                                    <a href="http://images.prd.mris.com/image/V2/1/Yu59d899Ocpyr_RnF0-8qNJX1oYibjwp9TiLy-bZvU9vRJ2iC1zSQgFwW-fTCs6tVkKrj99s7FFm5Ygwl88xIA.jpg" title="House">
+                                    </a>
+                                    <a href="img/pics/house.jpg" title="House">
+                                    </a>
+                                    </div>
+
+                                    <div class="clearfix visible-sm"></div>
+
+                                    <div class="media-body fnt-smaller">
+                                        <a href="#" target="_parent"></a>
+
+                                        <h4 class="media-heading">
+                                          <a href="imovel.html" target="_parent">$1,975,000 <small class="pull-right">Centro, Joinville</small></a></h4>
+
+                                        <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
+                                            <li>820m²</li>
+
+                                            <li style="list-style: none">|</li>
+
+                                            <li>Venda</li>
+
+                                            <li style="list-style: none">|</li>
+
+                                            <li>Casa</li>
+                                        </ul>
+
+                                        <p>Breve descrição do imóvel. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="imovel.html">Visualizar</a></p>
+
+                                        <span class="fnt-large fnt-lighter fnt-arial">Envie: <img class="whatsicon whatsicon-large" src="img/whatsapp.svg" onerror="this.onerror=null; this.src='img/whatsapp.png'" alt="Whatsapp Icon"><i class="fa fa-facebook-square shareimovel"></i><i class="fa fa-twitter-square shareimovel"></i><i class="fa fa-envelope-o shareimovel"></i></span>
+                                    </div>
+                                </div>
+                            </div><!-- End imovel 2 -->
+
+                           <!-- Imovel Exemplo 3 -->
+                            <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                                <div class="media no-drag">
+
+                                    <!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
+                                    <div id="container-imovel3" data-snap-ignore="true" class="blueimp-gallery blueimp-gallery-carousel">
+                                        <div class="slides"></div>
+                                        <h3 class="title"></h3>
+                                        <a class="prev">‹</a>
+                                        <a class="next">›</a>
+                                        <a class="play-pause"></a>
+                                        <ol class="indicator"></ol>
+                                    </div>
+
+                                    <div id="imovel3">
+                                        <a href="img/pics/house.jpg" title="House">
+                                    </a>
+                                    <a href="http://images.prd.mris.com/image/V2/1/Yu59d899Ocpyr_RnF0-8qNJX1oYibjwp9TiLy-bZvU9vRJ2iC1zSQgFwW-fTCs6tVkKrj99s7FFm5Ygwl88xIA.jpg" title="House">
+                                    </a>
+                                    </div>
+
+                                    <div class="clearfix visible-sm"></div>
+
+                                    <div class="media-body fnt-smaller">
+                                        <a href="#" target="_parent"></a>
+
+                                        <h4 class="media-heading">
+                                          <a href="imovel.html" target="_parent">$1,975,000 <small class="pull-right">Centro, Joinville</small></a></h4>
+
+
+                                        <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
+                                            <li>820m²</li>
+
+                                            <li style="list-style: none">|</li>
+
+                                            <li>Venda</li>
+
+                                            <li style="list-style: none">|</li>
+
+                                            <li>Casa</li>
+                                        </ul>
+
+                                        <p>Breve descrição do imóvel. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="imovel.html">Visualizar</a></p>
+
+                                        <span class="fnt-large fnt-lighter fnt-arial">Envie: <img class="whatsicon whatsicon-large" src="img/whatsapp.svg" onerror="this.onerror=null; this.src='img/whatsapp.png'" alt="Whatsapp Icon"><i class="fa fa-facebook-square shareimovel"></i><i class="fa fa-twitter-square shareimovel"></i><i class="fa fa-envelope-o shareimovel"></i></span>
+                                    </div>
+                                </div>
+                            </div><!-- End imovel 3 -->
+
+                         <!-- Imovel Exemplo 4 -->
+                            <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                                <div class="media no-drag">
+
+                                    <!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
+                                    <div id="container-imovel4" data-snap-ignore="true" class="blueimp-gallery blueimp-gallery-carousel">
+                                        <div class="slides"></div>
+                                        <h3 class="title"></h3>
+                                        <a class="prev">‹</a>
+                                        <a class="next">›</a>
+                                        <a class="play-pause"></a>
+                                        <ol class="indicator"></ol>
+                                    </div>
+
+                                    <div id="imovel4">
+                                    <a href="http://images.prd.mris.com/image/V2/1/Yu59d899Ocpyr_RnF0-8qNJX1oYibjwp9TiLy-bZvU9vRJ2iC1zSQgFwW-fTCs6tVkKrj99s7FFm5Ygwl88xIA.jpg" title="House">
+                                    </a>
+                                    <a href="img/pics/house.jpg" title="House">
+                                    </a>
+                                    </div>
+
+                                    <div class="clearfix visible-sm"></div>
+
+                                    <div class="media-body fnt-smaller">
+                                        <a href="#" target="_parent"></a>
+
+                                        <h4 class="media-heading">
+                                          <a href="imovel.html" target="_parent">$1,975,000 <small class="pull-right">Centro, Joinville</small></a></h4>
+
+                                        <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
+                                            <li>820m²</li>
+
+                                            <li style="list-style: none">|</li>
+
+                                            <li>Venda</li>
+
+                                            <li style="list-style: none">|</li>
+
+                                            <li>Casa</li>
+                                        </ul>
+
+                                        <p>Breve descrição do imóvel. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="imovel.html">Visualizar</a></p>
+
+                                        <span class="fnt-large fnt-lighter fnt-arial">Envie: <img class="whatsicon whatsicon-large" src="img/whatsapp.svg" onerror="this.onerror=null; this.src='img/whatsapp.png'" alt="Whatsapp Icon"><i class="fa fa-facebook-square shareimovel"></i><i class="fa fa-twitter-square shareimovel"></i><i class="fa fa-envelope-o shareimovel"></i></span>
+                                    </div>
+                                </div>
+                            </div><!-- End imovel 4 -->
+
+                        </div><!-- End coluna esquerda -->
+
+
+                        <div class="col-sm-6">  
+     
+                            <!-- Imovel Exemplo 5 -->
+                            <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                                <div class="media no-drag">
+
+                                    <!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
+                                    <div id="container-imovel6" data-snap-ignore="true" class="blueimp-gallery blueimp-gallery-carousel">
+                                        <div class="slides"></div>
+                                        <h3 class="title"></h3>
+                                        <a class="prev">‹</a>
+                                        <a class="next">›</a>
+                                        <a class="play-pause"></a>
+                                        <ol class="indicator"></ol>
+                                    </div>
+
+                                    <div id="imovel6">
+                                    <a href="http://images.prd.mris.com/image/V2/1/Yu59d899Ocpyr_RnF0-8qNJX1oYibjwp9TiLy-bZvU9vRJ2iC1zSQgFwW-fTCs6tVkKrj99s7FFm5Ygwl88xIA.jpg" title="House">
+                                    </a>
+                                    <a href="img/pics/house.jpg" title="House">
+                                    </a>
+                                    </div>
+
+                                    <div class="clearfix visible-sm"></div>
+
+                                    <div class="media-body fnt-smaller">
+                                        <a href="#" target="_parent"></a>
+
+                                        <h4 class="media-heading">
+                                          <a href="imovel.html" target="_parent">$1,975,000 <small class="pull-right">Centro, Joinville</small></a></h4>
+
+                                        <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
+                                            <li>820m²</li>
+
+                                            <li style="list-style: none">|</li>
+
+                                            <li>Venda</li>
+
+                                            <li style="list-style: none">|</li>
+
+                                            <li>Casa</li>
+                                        </ul>
+
+                                        <p>Breve descrição do imóvel. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="imovel.html">Visualizar</a></p>
+
+                                        <span class="fnt-large fnt-lighter fnt-arial">Envie: <img class="whatsicon whatsicon-large" src="img/whatsapp.svg" onerror="this.onerror=null; this.src='img/whatsapp.png'" alt="Whatsapp Icon"><i class="fa fa-facebook-square shareimovel"></i><i class="fa fa-twitter-square shareimovel"></i><i class="fa fa-envelope-o shareimovel"></i></span>
+                                    </div>
+                                </div>
+                            </div><!-- End imovel 5 -->
+
+                            <!-- Imovel Exemplo 6 -->
+                            <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                                <div class="media no-drag">
+
+                                    <!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
+                                    <div id="container-imovel5" data-snap-ignore="true" class="blueimp-gallery blueimp-gallery-carousel">
+                                        <div class="slides"></div>
+                                        <h3 class="title"></h3>
+                                        <a class="prev">‹</a>
+                                        <a class="next">›</a>
+                                        <a class="play-pause"></a>
+                                        <ol class="indicator"></ol>
+                                    </div>
+
+                                    <div id="imovel5">
+                                        <a href="img/pics/house.jpg" title="House">
+                                    </a>
+                                    <a href="http://images.prd.mris.com/image/V2/1/Yu59d899Ocpyr_RnF0-8qNJX1oYibjwp9TiLy-bZvU9vRJ2iC1zSQgFwW-fTCs6tVkKrj99s7FFm5Ygwl88xIA.jpg" title="House">
+                                    </a>
+                                    </div>
+
+                                    <div class="clearfix visible-sm"></div>
+
+                                    <div class="media-body fnt-smaller">
+                                        <a href="#" target="_parent"></a>
+
+                                        <h4 class="media-heading">
+                                          <a href="imovel.html" target="_parent">$1,975,000 <small class="pull-right">Centro, Joinville</small></a></h4>
+
+                                        <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
+                                            <li>820m²</li>
+
+                                            <li style="list-style: none">|</li>
+
+                                            <li>Venda</li>
+
+                                            <li style="list-style: none">|</li>
+
+                                            <li>Casa</li>
+                                        </ul>
+
+                                        <p>Breve descrição do imóvel. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="imovel.html">Visualizar</a></p>
+
+                                        <span class="fnt-large fnt-lighter fnt-arial">Envie: <img class="whatsicon whatsicon-large" src="img/whatsapp.svg" onerror="this.onerror=null; this.src='img/whatsapp.png'" alt="Whatsapp Icon"><i class="fa fa-facebook-square shareimovel"></i><i class="fa fa-twitter-square shareimovel"></i><i class="fa fa-envelope-o shareimovel"></i></span>
+                                    </div>
+                                </div>
+                            </div><!-- End imovel 6 -->
+
+                            <!-- Imovel Exemplo 7 -->
+                            <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                                <div class="media no-drag">
+
+                                    <!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
+                                    <div id="container-imovel8" data-snap-ignore="true" class="blueimp-gallery blueimp-gallery-carousel">
+                                        <div class="slides"></div>
+                                        <h3 class="title"></h3>
+                                        <a class="prev">‹</a>
+                                        <a class="next">›</a>
+                                        <a class="play-pause"></a>
+                                        <ol class="indicator"></ol>
+                                    </div>
+
+                                    <div id="imovel8">
+                                    <a href="http://images.prd.mris.com/image/V2/1/Yu59d899Ocpyr_RnF0-8qNJX1oYibjwp9TiLy-bZvU9vRJ2iC1zSQgFwW-fTCs6tVkKrj99s7FFm5Ygwl88xIA.jpg" title="House">
+                                    </a>
+                                    <a href="img/pics/house.jpg" title="House">
+                                    </a>
+                                    </div>
+
+                                    <div class="clearfix visible-sm"></div>
+
+                                    <div class="media-body fnt-smaller">
+                                        <a href="#" target="_parent"></a>
+
+                                        <h4 class="media-heading">
+                                          <a href="imovel.html" target="_parent">$1,975,000 <small class="pull-right">Centro, Joinville</small></a></h4>
+
+                                        <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
+                                            <li>820m²</li>
+
+                                            <li style="list-style: none">|</li>
+
+                                            <li>Venda</li>
+
+                                            <li style="list-style: none">|</li>
+
+                                            <li>Casa</li>
+                                        </ul>
+
+                                        <p>Breve descrição do imóvel. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="imovel.html">Visualizar</a></p>
+
+                                        <span class="fnt-large fnt-lighter fnt-arial">Envie: <img class="whatsicon whatsicon-large" src="img/whatsapp.svg" onerror="this.onerror=null; this.src='img/whatsapp.png'" alt="Whatsapp Icon"><i class="fa fa-facebook-square shareimovel"></i><i class="fa fa-twitter-square shareimovel"></i><i class="fa fa-envelope-o shareimovel"></i></span>
+                                    </div>
+                                </div>
+                            </div><!-- End imovel 7 -->
+
+                            <!-- Imovel Exemplo 8 -->
+                            <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                                <div class="media no-drag">
+
+                                    <!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
+                                    <div id="container-imovel7" data-snap-ignore="true" class="blueimp-gallery blueimp-gallery-carousel">
+                                        <div class="slides"></div>
+                                        <h3 class="title"></h3>
+                                        <a class="prev">‹</a>
+                                        <a class="next">›</a>
+                                        <a class="play-pause"></a>
+                                        <ol class="indicator"></ol>
+                                    </div>
+
+                                    <div id="imovel7">
+                                        <a href="img/pics/house.jpg" title="House">
+                                    </a>
+                                    <a href="http://images.prd.mris.com/image/V2/1/Yu59d899Ocpyr_RnF0-8qNJX1oYibjwp9TiLy-bZvU9vRJ2iC1zSQgFwW-fTCs6tVkKrj99s7FFm5Ygwl88xIA.jpg" title="House">
+                                    </a>
+                                    </div>
+
+                                    <div class="clearfix visible-sm"></div>
+
+                                    <div class="media-body fnt-smaller">
+                                        <a href="#" target="_parent"></a>
+
+                                        <h4 class="media-heading">
+                                          <a href="imovel.html" target="_parent">$1,975,000 <small class="pull-right">Centro, Joinville</small></a></h4>
+
+                                        <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
+                                            <li>820m²</li>
+
+                                            <li style="list-style: none">|</li>
+
+                                            <li>Venda</li>
+
+                                            <li style="list-style: none">|</li>
+
+                                            <li>Casa</li>
+                                        </ul>
+
+                                        <p>Breve descrição do imóvel. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="imovel.html">Visualizar</a></p>
+
+                                        <span class="fnt-large fnt-lighter fnt-arial">Envie: <img class="whatsicon whatsicon-large" src="img/whatsapp.svg" onerror="this.onerror=null; this.src='img/whatsapp.png'" alt="Whatsapp Icon"><i class="fa fa-facebook-square shareimovel"></i><i class="fa fa-twitter-square shareimovel"></i><i class="fa fa-envelope-o shareimovel"></i></span>
+                                    </div>
+                                </div>
+                            </div><!-- End imovel 8 -->
+
+                        </div><!-- End Coluna direita -->
+
+                    </div><!-- End row -->
+
+                </div><!-- End container -->
+            </div><!-- fecha div imóvel -->
+
+            <hr>
+
+            <div class="container">
+              <footer>
+                <p>&copy; Imoville Empreendimentos Imobiliários 2014</p>
+              </footer>
+            </div> <!-- /container --> 
+              
+            
+        <!-- </div>  /padded --> 
+    </div> <!-- /content --> 
 
 
         <!-- jQuery JS -->
